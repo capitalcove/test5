@@ -1,0 +1,48 @@
+/* ItemDetail.module.css */
+
+.container {
+  padding: 24px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0 0 16px 0;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.detail {
+  margin: 12px 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+.label {
+  font-weight: 600;
+  color: #333;
+  margin-right: 8px;
+}
+
+.value {
+  color: #666;
+}
+
+.price {
+  color: #007bff;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+}
