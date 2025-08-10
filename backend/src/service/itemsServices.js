@@ -3,7 +3,6 @@ const { readItemFile, writeItemFile } = require("../utils/fileHandler");
 
 const DATA_PATH = path.join(__dirname, "..", "..", "..", "data", "items.json");
 const getAllItems = async () => {
-  console.log(DATA_PATH);
   return await readItemFile(DATA_PATH);
 };
 

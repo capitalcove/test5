@@ -9,19 +9,7 @@
     "id": 2,
     "name": "Laptop Pro #2",
     "category": "Electronics",
-    "price": 2499
-  },
-  {
-    "id": 3,
-    "name": "Sunscreen #3",
-    "category": "Beauty",
-    "price": 1090
-  },
-  {
-    "id": 4,
-    "name": "Standing Desk #4",
-    "category": "Furniture",
-    "price": 1199
+    "price": 24
   },
   {
     "id": 5,

@@ -9,6 +9,7 @@ const {
   notFound,
   globalErrorHandler,
 } = require("./middleware/errorHandler");
+const logger = require("./middleware/logger");
 
 const app = express();
 const port = process.env.PORT || 3001;
@@ -16,6 +17,7 @@ const port = process.env.PORT || 3001;
 app.use(cors({ origin: "http://localhost:3000" }));
 // Basic middleware
 app.use(express.json());
+app.use(logger);
 app.use(morgan("dev"));
 
 // Routes

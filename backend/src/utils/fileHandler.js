@@ -2,6 +2,7 @@ const fs = require("fs/promises");
 
 const readItemFile = async (path) => {
   const raw = await fs.readFile(path, "utf-8");
+  console.log(path);
   return JSON.parse(raw);
 };
 

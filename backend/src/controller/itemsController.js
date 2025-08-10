@@ -9,7 +9,7 @@ const getItems = async (req, res, next) => {
 
     let results = await itemService.getAllItems();
     const totalCount = results.length;
-    if (q.trim()) {
+    if (typeof q === "string" && q.trim()) {
       const qLowerCase = q.toLowerCase();
       results = results.filter((item) =>
         item.name.toLowerCase().includes(qLowerCase)
