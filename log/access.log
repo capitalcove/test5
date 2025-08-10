@@ -1,0 +1,5 @@
+{"timeStamp":"2025-08-10T22:23:29.606Z","method":"GET","url":"/api/items?q=ip","status":200,"duration":"7.89ms","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+{"timeStamp":"2025-08-10T22:23:33.529Z","method":"GET","url":"/api/stats","status":200,"duration":"4.70ms","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+{"timeStamp":"2025-08-10T22:23:36.511Z","method":"GET","url":"/api/stats","status":200,"duration":"2.13ms","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+{"timeStamp":"2025-08-10T22:23:36.939Z","method":"GET","url":"/api/stats","status":200,"duration":"1.22ms","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+{"timeStamp":"2025-08-10T22:23:38.117Z","method":"GET","url":"/api/stats","status":200,"duration":"1.18ms","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"}

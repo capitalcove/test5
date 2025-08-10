@@ -6,7 +6,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const logFile = path.join(__dirname, "..", "..", "..", "data", "access.log");
+const logFile = path.join(__dirname, "..", "..", "..", "log", "access.log");
 
 const logStream = fs.createWriteStream(logFile, { flag: "a" });
 
